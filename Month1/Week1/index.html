@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html From</title>
+</head>
+<body>
+    <h1>Form</h1>
+
+</body>
+    <main>
+
+        <form>
+            <label for="Name">Name:</label>
+            <input type="text" name="username" placeholder="Enter your name">
+            <button type="submigitt">Submit</button>
+
+            <label for="username">Username:</label>
+            <input type="text" id="usernSame" name="username" placeholder="Enter your username">
+          
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email">
+          
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password">
+        </form>
+
+        <form>
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" min="18" max="100" placeholder="Enter your age">
+          
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob">
+          </form>
+          <!-- Radio -->
+          <form class="Radio">
+            <p>Select your gender:</p>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+          
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+          </form>
+          <!-- checkbox -->
+          <form class="checkbox">
+            <p>Select your hobbies:</p>
+            <input type="checkbox" id="reading" name="hobbies" value="reading">
+            <label for="reading">Reading</label>
+          
+            <input type="checkbox" id="sports" name="hobbies" value="sports">
+            <label for="sports">Sports</label>
+
+            <input type="checkbox" id="Gaming" name="hobbies" value="Gaming">
+            <label for="Gaming">Gaming</label>
+          </form>
+          <!-- Drop menu Single select -->
+          <form>
+            <label for="country">Select your country:</label>
+            <select id="country" name="country">
+              <option value="-">--Please select--</option>
+              <option value="usa">United States</option>
+              <option value="canada">Canada</option>
+              <option value="uk">United Kingdom</option>
+            </select>
+          </form>
+          <!-- Multiple Select -->
+          <form>
+            <label for="fruits">Select your favorite fruits:</label>
+            <select id="fruits" name="fruits" multiple>
+              <option value="apple">Apple</option>
+              <option value="banana">Banana</option>
+              <option value="orange">Orange</option>
+              <option value="grapes">Grapes</option>
+            </select>
+          </form>
+    </main>
+</html>
