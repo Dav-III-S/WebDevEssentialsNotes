@@ -12,6 +12,7 @@
     <main>
 
         <form>
+            <!-- <input type="text" aria-label="Search" placeholder="Search..."> helps with disability just not sure how -->
             <label for="Name">Name:</label>
             <input type="text" name="username" placeholder="Enter your name">
             <button type="submigitt">Submit</button>
@@ -73,6 +74,50 @@
               <option value="orange">Orange</option>
               <option value="grapes">Grapes</option>
             </select>
+          </form>
+          <!-- Buttons -->
+          <form>
+            <label for="submit">Submit:</label>
+            <input type="submit" value="Submit">
+          </form>
+          <!-- Rested -->
+          <form>
+            <label for="Rest">Rest:</label>
+            <button type="submit">Rest</button>
+          </form>
+          <!-- Fieldset -->
+          <form>
+            <fieldset>
+              <legend>Contact Information</legend>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name">
+              
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email">
+            </fieldset>
+          </form>
+          <!-- text area -->
+          <form>
+            <label for="message">Your message:</label>
+            <textarea id="message" name="message" rows="4" cols="50" placeholder="Enter your message"></textarea>
+          </form>
+          <!-- hidden fields -->
+          <form>
+            <input type="hidden" name="user_id" value="12345">
+            <input type="text" name="user_name" value="John Doe">
+            <input type="submit" value="Submit">
+          </form>
+          <!-- Data validation -->
+          <form>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <input type="submit" value="Submit">
+          </form>
+          <!-- input validation -->
+          <form>
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" min="18" max="100" title="Age must not be lower than 18 or higher than 100">
+            <input type="submit" value="Submit">
           </form>
     </main>
 </html>
